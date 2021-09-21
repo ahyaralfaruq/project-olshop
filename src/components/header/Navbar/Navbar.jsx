@@ -1,8 +1,10 @@
 import { BurgerMenu, CartIcon, MessageIcon, NotificationIcon } from './navbar-icon'
+import NavbarSearch from './navbar-search/NavbarSearch'
+import './style.css'
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="navbar-wrapper">
             <CartIcon />
             <MessageIcon />
             <NotificationIcon />
