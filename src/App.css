@@ -1,0 +1,11 @@
+html {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+
+.App {
+  text-align: center;
+  width: 375px;
+  margin: auto;
+  box-shadow: 0px 3px 5px 3px rgb(0 0 0 / 10%);
+}
