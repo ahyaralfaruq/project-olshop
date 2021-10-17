@@ -9,7 +9,7 @@ html {
   min-height: 100vh;
   margin: auto;
   box-shadow: 0px 3px 5px 3px rgb(0 0 0 / 10%);
-  background: var(--green,#03ac0e);
+  background: var(--white,#ffffff);
 }
 
 .header {
