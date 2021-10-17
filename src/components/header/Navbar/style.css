@@ -11,8 +11,16 @@
 .navbar-icons {
     flex: 1 40%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+.wrapping-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.li-icons {
+    padding: 0 10px;
 }
 .icons {
     width: 24px !important;

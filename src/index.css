@@ -1,16 +1,31 @@
 :root {
-  --biru-muda : #3986db;
-  --putih : #FFFFFF;
-  --hijau : #03AC0E;
-  --abu-abu-f345 : #F3F4F5;
-  --abu-abu-f579 : #F5F7F9;
-  --hitam-off : rgba(49,53,59,0.44);
-  --hitam-def : rgba(49, 53, 59, 0.96);
-  --hitam-des : rgba(49,53,59,0.54);
-}
+  --disable : rgba(49,53,59,.68);
+  --dark : rgba(49,53,59,.96);
+  --white : #ffffff;
+  --young-blue : #2398db;
+  --gray-transparent : #e5e7e9;
+  --gray-dark : #f3f4f5;
 
-*, ::after, ::before {
-  box-sizing: inherit;
+  --border-basic : 1px solid #e5e7e9;
+  --shadow-basic : rgba(49, 53, 59, .12) 0px 1px 6px 0;
+
+  --ff-ss : 'Open Sans',sans-serif;
+  --fw-normal : normal;
+  --fw-slice : 400;  
+  --fw-bold : 600;
+  --fw-bolder : 800;
+  --fs-basic : 14px;
+  --fs-sm : 11px;
+  --fs-normal : 16px;
+  --fs-md : 18px;
+  --fs-lg : 20px;
+  --fs-xl : 24px;
+  --fs-xxl : 32px;
+}
+*,::before,::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -25,7 +40,7 @@ a {
 }
 
 body, html {
-  background: var(--putih,#fff);
+  background: var(--gray-transparent,#e5e7e9);
   margin: 0;
   padding: 0;
   height: 100%;

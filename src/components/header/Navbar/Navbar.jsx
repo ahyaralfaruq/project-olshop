@@ -19,29 +19,37 @@ const Navbar = () => {
                 <NotificationIcon />
                 <BurgerMenu /> */}
 
-                <Link to="/">
-                    <Badge color="secondary" badgeContent={1000} max={999}>
-                        <ShoppingCart className="icons" />
-                    </Badge>
-                </Link>
-                
-                <Link to="/">
-                    <Badge color="secondary" badgeContent={1000} max={999}>
-                        <Email className="icons" />
-                    </Badge>
-                </Link>
+                <ul className="wrapping-icons">
+                    <li className="li-icons">
+                        <Link to="/">
+                            <Badge color="secondary" badgeContent={1000} max={999}>
+                                <ShoppingCart className="icons" />
+                            </Badge>
+                        </Link>
+                    </li>
+                    <li className="li-icons">
+                        <Link to="/">
+                            <Badge color="secondary" badgeContent={1000} max={999}>
+                                <Email className="icons" />
+                            </Badge>
+                        </Link>
+                    </li>
+                    <li className="li-icons">
+                        <Link to="/">
+                            <Badge color="secondary" badgeContent={1000} max={999}>
+                                <Notifications className="icons" />
+                            </Badge>
+                        </Link>
+                    </li>
+                </ul>
 
-                <Link to="/">
-                    <Badge color="secondary" badgeContent={1000} max={999}>
-                        <Notifications className="icons" />
-                    </Badge>
-                </Link>
-
-                <button className="button-menu">
-                    <Badge color="secondary">
-                        <Menu className="icons" />
-                    </Badge>
-                </button>
+                <div className="li-icons">
+                    <button className="button-menu">
+                        <Badge color="secondary">
+                            <Menu className="icons" />
+                        </Badge>
+                    </button>
+                </div>
                 
             </div>
         </div>
