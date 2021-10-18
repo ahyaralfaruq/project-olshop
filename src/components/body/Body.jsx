@@ -8,7 +8,9 @@ import './style.css'
 const Body = () => {
     return (
         <main className="main">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae adipisci cumque in perferendis necessitatibus voluptate dolore qui hic quas sint commodi molestias maiores cum sapiente, fugit voluptates nostrum neque molestiae.
+            <div className="carousel-container">
+                <Carousel />
+            </div>
         </main>
     )
 }
