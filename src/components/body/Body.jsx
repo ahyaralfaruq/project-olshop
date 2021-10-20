@@ -11,6 +11,12 @@ const Body = () => {
             <div className="carousel-container">
                 <Carousel />
             </div>
+            <div>
+                <Kategori />
+            </div>
+            <div>
+                <Produk />
+            </div>
         </main>
     )
 }
