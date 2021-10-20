@@ -30,7 +30,7 @@ const Carousel = () => {
             setCurrentImg(currentImg === len - 1 ? 0 : currentImg + 1)
         }, 4000)
         return () => clearInterval(interval)
-    }, [currentImg, len])
+    }, [currentImg, len]) 
 
     // fungsi tombol prev dan next
 
