@@ -11,10 +11,10 @@ const Body = () => {
             <div className="carousel-container">
                 <Carousel />
             </div>
-            <div>
+            <div className="category-container">
                 <Kategori />
             </div>
-            <div>
+            <div className="product-container">
                 <Produk />
             </div>
         </main>

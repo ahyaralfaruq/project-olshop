@@ -8,3 +8,7 @@
     height: clamp(240px,240px,240px);
     overflow: hidden;
 }
+.category-container {
+    margin-top: 30px;
+    width: 100%;
+}
