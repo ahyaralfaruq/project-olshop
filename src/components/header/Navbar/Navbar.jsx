@@ -50,7 +50,6 @@ const Navbar = () => {
                         </Badge>
                     </button>
                 </div>
-                
             </div>
         </div>
     )
