@@ -62,7 +62,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100%;
     z-index: 1;
     bottom: 0;
     top: 90%;
@@ -76,7 +75,7 @@
     background: var(--dark,rgba(49, 53, 59,.96));
     display: inline-block;
 }
-.dots.active,dots:hover {
+.dots.active, .dots:hover {
     background: var(--gray-transparent,rgba(49, 53, 59,.68));
 }
 
