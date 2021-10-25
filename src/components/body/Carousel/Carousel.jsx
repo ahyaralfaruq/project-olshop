@@ -12,7 +12,7 @@ const Carousel = () => {
             image : `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d47177ae-b3aa-46ce-9b83-fea143b96f7d/d2moy3f-f3ea8ed8-bf8f-4dcc-9aae-1054f16e6535.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9kNDcxNzdhZS1iM2FhLTQ2Y2UtOWI4My1mZWExNDNiOTZmN2QvZDJtb3kzZi1mM2VhOGVkOC1iZjhmLTRkY2MtOWFhZS0xMDU0ZjE2ZTY1MzUucG5nIn1dXX0.ymooVy7_5g-Vm7E171envwjyn0bJ00_OXVj0IQt7kZQ`,
         },
         {
-            image : `http://2.bp.blogspot.com/-ZSZne0Pi0CM/TrKLgrwD4_I/AAAAAAAAAIE/dZoS9I97obo/s1600/one-piece-banner.png`,
+            image : `https://2.bp.blogspot.com/-ZSZne0Pi0CM/TrKLgrwD4_I/AAAAAAAAAIE/dZoS9I97obo/s1600/one-piece-banner.png`,
         },
         {
             image : `https://pbs.twimg.com/profile_banners/262323400/1398538604/1500x500`,
